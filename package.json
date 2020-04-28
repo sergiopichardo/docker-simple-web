@@ -1,0 +1,22 @@
+{
+    "name": "simple-web",
+    "version": "1.0.0",
+    "description": "Dockerizing a very simple Node.js Application",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sergiopichardo/simple-web.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sergiopichardo/simple-web/issues"
+    },
+    "homepage": "https://github.com/sergiopichardo/simple-web#readme"
+}
