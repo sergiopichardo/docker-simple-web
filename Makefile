@@ -4,5 +4,12 @@ build:
 run: 
 	docker run -p 8080:8080 --name simple-web sergiopichardo/simple-web
 
-all: build run 
+start: 
+	docker start -a simple-web
+
+lint: 
+	hadolint Dockerfile
+
+
+all: lint build start 
 
