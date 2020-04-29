@@ -1,7 +1,7 @@
 # Simple Web 
 Dockerizing a very simple Node.js Application
 
-## run project 
+## Run project 
 ```sh
 $ make all
 ```
